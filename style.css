@@ -804,6 +804,9 @@ h4 {
 }
 
 @media (max-width: 1024px) {
+    h2 {
+        margin: 10px;
+    }
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -1017,4 +1020,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+article {
+    font-size: 22px
 }
