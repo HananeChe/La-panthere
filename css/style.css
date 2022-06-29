@@ -1025,3 +1025,91 @@ h4 {
 article {
     font-size: 22px
 }
+
+.text-lien {
+    font-size: 3px;
+    color: #ea804f;
+}
+
+@font-face {
+    font-family: et-line;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/et-line.eot);
+    src: url(/css/et-line.eot) format('embedded-opentype'), url(/css/et-line.ttf) format('truetype'), url(/css/et-line.svg) format('svg');
+}
+
+.et-icon-browser:before {
+    content: "\e00c";
+    display: inline-block;
+    text-transform: none;
+    font-family: et-line;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.et-icon-presentation:before {
+    content: "\e00e";
+    display: inline-block;
+    text-transform: none;
+    font-family: et-line;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.et-icon-edit:before {
+    content: "\e01c";
+    display: inline-block;
+    text-transform: none;
+    font-family: et-line;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/css/fontawesome-webfont.eot');
+    src: url('/css/fontawesome-webfont.eot') format('embedded-opentype'), url('/css/fontawesome-webfont.woff') format('woff2'), url('/css/fontawesome-webfont.woff2') format('woff'), url('/css/fontawesome-webfont.ttf') format('truetype'), url('/css/fontawesome-webfont.svg') format('svg');
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-dribbble:before {
+    content: "\f17d";
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+}
